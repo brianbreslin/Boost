@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Service:</strong>
+  <%= @order.service %>
+</p>
+
+<p>
+  <strong>Complete:</strong>
+  <%= @order.complete %>
+</p>
+
+<p>
+  <strong>Cms:</strong>
+  <%= @order.cms %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @order.website %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

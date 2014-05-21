@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  resources :orders
+
   devise_for :users
+  resources :users, only: [:update]
   root to: 'welcome#home'
 
   # The priority is based upon order of creation: first created -> highest priority.

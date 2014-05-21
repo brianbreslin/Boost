@@ -35,3 +35,4 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'figaro'
 gem 'newrelic_rpm'
+gem 'bootstrap-sass', '~> 3.1.1'
